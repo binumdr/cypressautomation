@@ -2,7 +2,7 @@ describe('MyTestSuite', function()
 {
     it('usercreatewithallfieldempty', function()
     {
-
+        //login
         cy.visit('https://gold.noveltytechnology.com/login')
         cy.wait(300)
         cy.get('#username').type('tester@noveltytechnology.com')
