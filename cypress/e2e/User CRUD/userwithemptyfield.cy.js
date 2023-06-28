@@ -1,6 +1,6 @@
 describe('MyTestSuite', function()
 {
-    it('loginpage', function()
+    it('usercreatewithallfieldempty', function()
     {
         cy.visit('https://gold.noveltytechnology.com/login')
         cy.wait(300)
